@@ -1,10 +1,10 @@
-def dodawanie():
-    a = int(input('Wprowadź pierwszą liczbę: '))
-    b = int(input('Wprowadź drugą liczbę: '))
-    print(a + b )
+def dodawanie(a, b):
+    return a + b
     
 def get_info():
     print("To jest prosty program dodający dwie liczby")
     
 get_info()    
-dodawanie()
+l1 = int(input('Wprowadź pierwszą liczbę: '))
+l2 = int(input('Wprowadź drugą liczbę: '))
+print(dodawanie(l1, l2))
